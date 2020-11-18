@@ -204,6 +204,11 @@ body {
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.4);
 }
 
+.course__imgIcon-inline {
+  display: inline;
+  max-width: 150px;
+}
+
 @media screen and (max-width: 1200px) {
   .mainContainer {
     margin: 20px;
