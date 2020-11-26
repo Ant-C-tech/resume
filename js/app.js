@@ -37,3 +37,11 @@ let popupKkl2 = new PopUp({
     maskColor: '#1e2939',
     maskOpacity: '0.7',
 })
+
+let popupitHackaton = new PopUp({
+    openBtn: 'showModal-itHack',
+    container: 'popupContainer__itHack',
+    content: ` <img class="course__img w-100" src="img/hackaton.jpg" alt="certificate">`,
+    maskColor: '#1e2939',
+    maskOpacity: '0.7',
+})
