@@ -53,3 +53,27 @@ let popupEpam = new PopUp({
     maskColor: '#1e2939',
     maskOpacity: '0.7',
 })
+
+let popuplinkedInHtml = new PopUp({
+    openBtn: 'showModal-linkedInHtml',
+    container: 'popupContainer__linkedInHtml',
+    content: ` <img class="course__img w-100" src="img/html_badge.jpg" alt="test result">`,
+    maskColor: '#1e2939',
+    maskOpacity: '0.7',
+})
+
+let popuplinkedInCss = new PopUp({
+    openBtn: 'showModal-linkedInCss',
+    container: 'popupContainer__linkedInCss',
+    content: ` <img class="course__img w-100" src="img/css_badge.jpg" alt="test result">`,
+    maskColor: '#1e2939',
+    maskOpacity: '0.7',
+})
+
+let popuplinkedInJS = new PopUp({
+    openBtn: 'showModal-linkedInJS',
+    container: 'popupContainer__linkedInJS',
+    content: ` <img class="course__img w-100" src="img/javaScript_badge.jpg" alt="test result">`,
+    maskColor: '#1e2939',
+    maskOpacity: '0.7',
+})
