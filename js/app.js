@@ -45,3 +45,11 @@ let popupitHackaton = new PopUp({
     maskColor: '#1e2939',
     maskOpacity: '0.7',
 })
+
+let popupEpam = new PopUp({
+    openBtn: 'showModal-epam',
+    container: 'popupContainer__epam',
+    content: ` <img class="course__img w-100" src="img/EPAM_test.jpg" alt="test result">`,
+    maskColor: '#1e2939',
+    maskOpacity: '0.7',
+})
