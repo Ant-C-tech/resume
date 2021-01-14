@@ -112,6 +112,10 @@ body {
     font-weight: 700;
 }
 
+.expTitle {
+    color: #3b4452;
+}
+
 .projectsContainer,
 .educationContainer,
 .testContainer {
