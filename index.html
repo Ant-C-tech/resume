@@ -1,295 +1,560 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Some page description..." />
     <title>Resume</title>
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_package_v0.16/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_package_v0.16/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_package_v0.16/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon_package_v0.16/site.webmanifest">
-    <link rel="mask-icon" href="img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon_package_v0.16/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="img/favicon_package_v0.16/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- styles -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- scripts -->
     <script defer src="js/popUp.min.js"></script>
     <script defer src="js/app.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- main container -->
     <div class="mainContainer">
-        <aside class="aside">
-            <img class="aside__photo" src="img/photo.jpg" alt="photo">
+      <aside class="aside">
+        <img class="aside__photo" src="img/photo.jpg" alt="photo" />
 
-            <!-- contacts container -->
-            <div class="contactsContainer">
-                <h3 class="contactsContainer__title">Contacts</h3>
-                <div class="contactsContainer__wrapper">
-                    C: <a class="contactsContainer__link" href="tel:380989103441">+38 098 910 34 41</a>
-                </div>
-                <div class="contactsContainer__wrapper">
-                    E: <a class="contactsContainer__link" href="mailto:chivikovanton@gmail.com">chivikovanton@gmail.com</a>
-                </div>
-            </div>
-
-            <!-- tech skills -->
-            <div class="techSkillsContainer">
-                <h3 class="techSkillsContainer__title">Tech Skills</h3>
-                <ul class="techSkillsContainer__wrapper">
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">HTML5</span> </li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">CSS3</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">BEM Methodology</span>
-                    </li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">LESS</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">SCSS</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">Bootstrap</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">Adobe Photoshop, Adobe
-                            XD,</span><br><span class="techSkillsContainer__item"> Avocode, Figma</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">GIT</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">JavaScript</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">OOP</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">jQuery</span></li>
-                    <li class="techSkillsContainer__list"><span class="techSkillsContainer__item">React</span></li>
-                </ul>
-            </div>
-
-            <!-- soft skills -->
-            <div class="softSkillsContainer">
-                <h3 class="softSkillsContainer__title">Soft Skills</h3>
-                <ul class="softSkillsContainer__wrapper">
-                    <li class="softSkillsContainer__list"><span class="softSkillsContainer__item">Scrum</span></li>
-                    <li class="softSkillsContainer__list"><span class="softSkillsContainer__item">Agile</span></li>
-                </ul>
-            </div>
-
-        </aside>
-
-        <!-- about me container -->
-        <div class="infoContainer">
-
-            <!-- about me main information -->
-            <div class="infoContainer__wrapper">
-                <h2 class="infoContainer__profTitle">Front-End Developer</h2>
-                <h1 class="infoContainer__title"><span class="expTitle">Ant</span>on <span class="expTitle">C</span>hyvikov</h1>
-
-                <p class="infoContainer__description">
-                    I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.
-                </p>
-                <hr>
-            </div>
-
-            <!-- projects container -->
-            <div class="projectsContainer">
-                <h3 class="projectsContainer__title">Projects and Trainings</h3>
-                <ul>
-
-                    <li>
-                        <a class="projectsContainer__item" href="https://github.com/Ant-C-tech?tab=repositories" target="_blank">GitHub Repositories (since Jan 2020)</a>
-                    </li>
-                    <li>
-                        <div class="projectsContainer__itemWrapper">
-                            <a class="projectsContainer__item" href="https://www.codewars.com/users/Ant-C-tech" target="_blank">Codewars (since Jul 2020) </a>
-                            <img src="https://www.codewars.com/users/Ant-C-tech/badges/micro" alt="Codewars badge">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- work experience -->
-            <div class="workExperienceContainer">
-                <h3 class="workExperienceContainer__title">Work Experience</h3>
-
-                <!-- company 1 -->
-                <div class="company">
-                    <h4> <a class="company__title" target="_blank" href="http://www.kzts.com/">PJSC “KZTS”</a> </h4>
-                    <h4 class="company__prof">Lead engineer</h4>
-                    <p class="company__period">October 2013 - April 2020 | Ukraine</p>
-                </div>
-
-                <!-- company 2 -->
-                <div class="company">
-                    <h4> <a class="company__title" target="_blank" href="https://www.google.com/maps/place/Koks-Kompleks+Inzhenernyy+Tsentr+Pp/@48.7180744,37.5598725,15z/data=!4m5!3m4!1s0x0:0x4d02036788b19b0f!8m2!3d48.7180744!4d37.5598725">
-                            PC “Engineering center "Koks-Complex”</a></h4>
-                    <h4 class="company__prof">Second category engineer</h4>
-                    <p class="company__period">May 2010 - December 2012 | Ukraine</p>
-                </div>
-
-                <!-- company 3 -->
-                <div class="company">
-                    <h4> <a class="company__title" target="_blank" href="http://www.kbkxm-kbk.com/">PJSC "KB
-                            Koksokhimmash"</a> </h4>
-                    <h4 class="company__prof">Second category engineer</h4>
-                    <p class="company__period">December 2008 - May 2010 | Ukraine</p>
-                </div>
-
-                <!-- company 4 -->
-                <div class="company">
-                    <h4> <a class="company__title" target="_blank" href="http://www.ukrprommash.com/en/company.html">UKRPROMMASH GROUP</a> </h4>
-                    <h4 class="company__prof">Engineer, Second category engineer</h4>
-                    <p class="company__period">June 2005 - November 2008 | Ukraine</p>
-                </div>
-            </div>
-
-            <!-- education -->
-            <div class="educationContainer">
-                <h3 class="educationContainer__title">Education</h3>
-
-                <!-- education 9-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://kottans.org/">Kottans</a></h4>
-                    <h4 class="course__type">Front-End Course</h4>
-                    <span class="company__period">November 2020 - Present | Ukraine</span>
-                    <div class="course__resultWrapper">
-                        <a class="course__result" href="https://github.com/Ant-C-tech/kottans-frontend" target="_blank">
-                            Course contents and results</a>
-                    </div>
-                </div>
-
-                <!-- education 8-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://www.kcl.ac.uk/">Coventry University</a></h4>
-                    <h4 class="course__type">English for Academic Study</h4>
-                    <span class="company__period">January 2021 | UK</span>
-                    <div>
-                        <img class="course__imgIcon course__imgIcon-inline showModal-coventry-1" src="img/coventry1_icon.jpg" alt="certificate">
-                        <img class="course__imgIcon course__imgIcon-inline showModal-coventry-2" src="img/coventry2_icon.jpg" alt="certificate">
-                    </div>
-                </div>
-
-                <!-- education 7-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://www.kcl.ac.uk/">King's College
-                            London</a></h4>
-                    <h4 class="course__type">Basic English 2: Pre-Intermediate</h4>
-                    <span class="company__period">November 2020 | UK</span>
-                    <div>
-                        <img class="course__imgIcon course__imgIcon-inline showModal-kkl-1" src="img/basic-english-pre-intermediate_icon_1.jpg" alt="certificate">
-                        <img class="course__imgIcon course__imgIcon-inline showModal-kkl-2" src="img/basic-english-pre-intermediate_icon_2.jpg" alt="certificate">
-                    </div>
-                </div>
-
-                <!-- education 6-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://itukraine.org.ua/en/start-of-it-nation-an-educational-programme.html">Educational
-                            Programme “IT nation”</a> </h4>
-                    <h4 class="course__type">IT Nation Hacks-2020</h4>
-                    <span class="company__period">October 2020 | Ukraine</span>
-                    <img class="course__imgIcon showModal-itHack" src="img/hackaton_icon.jpg" alt="certificate">
-                </div>
-
-                <!-- education 5-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://lingva.ua/">PO "Association of
-                            innovative and digital education"</a> </h4>
-                    <h4 class="course__type">English level B1-B1+</h4>
-                    <span class="company__period">August 2020 - October 2020 | Ukraine</span>
-                </div>
-
-                <!-- education 4-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://itukraine.org.ua/en/start-of-it-nation-an-educational-programme.html">Educational
-                            Programme “IT nation”</a> </h4>
-                    <h4 class="course__type">Bootcamp for developers</h4>
-                    <span class="company__period">September 2020 | Ukraine</span>
-                    <img class="course__imgIcon showModal-itBootcamp" src="img/bootcamp_icon.jpg" alt="certificate">
-                </div>
-
-                <!-- education 3-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://itukraine.org.ua/en/start-of-it-nation-an-educational-programme.html">Educational
-                            Programme “IT nation”</a> </h4>
-                    <h4 class="course__type">Advanced Front-End Web Developer</h4>
-                    <span class="company__period">April 2020 - September 2020 | Ukraine</span>
-                    <img class="course__imgIcon showModal-itNationCourse" src="img/certificate_icon.jpg" alt="certificate">
-                </div>
-
-                <!-- education 2-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://lingva.ua/">PO "Association of
-                            innovative and digital education"</a> </h4>
-                    <h4 class="course__type">English level A1-A2</h4>
-                    <span class="company__period">June 2020 - August 2020 | Ukraine</span>
-                    <img class="course__imgIcon showModal-lingvaA1A2" src="img/diploma_icon.jpg" alt="certificate">
-                </div>
-
-                <!-- education 1-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="http://www.slavdpu.dn.ua/">STATE HIGHER
-                            EDUCATIONAL INSTITUTION DONBASS STATE TEACHERS' TRAINING UNIVERSITY (DSTTU)</a> </h4>
-                    <h4 class="course__type">Physics teacher</h4>
-                    <span class="company__period">September 2000 - June 2005 | Ukraine</span>
-                </div>
-
-            </div>
-
-            <!-- test -->
-            <div class="testContainer">
-                <h3 class="testContainer__title">Completed tests</h3>
-
-                <!-- test 1-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://www.training.epam.ua/#!/Home?lang=en">EPAM University Program</a> </h4>
-                    <h4 class="course__type">Adaptive English test 2020 Assignment</h4>
-                    <span class="company__period">January 2021</span>
-                    <img class="course__imgIcon showModal-epam" src="img/EPAM_test.jpg" alt="letter with test result">
-                </div>
-
-                <!-- test 2-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://www.linkedin.com/in/anton-chyvikov-27ba99198/">LinkedIn Skills Assessment Badge</a> </h4>
-                    <h4 class="course__type">HTML</h4>
-                    <span class="company__period">2020</span>
-                    <img class="course__imgIcon showModal-linkedInHtml" src="img/html_badge.jpg" alt="test result badge">
-                </div>
-
-                <!-- test 3-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://www.linkedin.com/in/anton-chyvikov-27ba99198/">LinkedIn
-                                            Skills Assessment Badge</a> </h4>
-                    <h4 class="course__type">CSS</h4>
-                    <span class="company__period">2020</span>
-                    <img class="course__imgIcon showModal-linkedInCss" src="img/css_badge.jpg" alt="test result badge">
-                </div>
-
-                <!-- test 4-->
-                <div class="course">
-                    <h4> <a class="company__title" target="_blank" href="https://www.linkedin.com/in/anton-chyvikov-27ba99198/">LinkedIn
-                                            Skills Assessment Badge</a> </h4>
-                    <h4 class="course__type">JavaScript</h4>
-                    <span class="company__period">2020</span>
-                    <img class="course__imgIcon showModal-linkedInJS" src="img/javaScript_badge.jpg" alt="test result badge">
-                </div>
-            </div>
-
+        <!-- contacts container -->
+        <div class="contactsContainer">
+          <h3 class="contactsContainer__title">Contacts</h3>
+          <div class="contactsContainer__wrapper">
+            C:
+            <a class="contactsContainer__link" href="tel:380989103441"
+              >+38 098 910 34 41
+            </a>
+          </div>
+          <div class="contactsContainer__wrapper">
+            E:
+            <a
+              class="contactsContainer__link"
+              href="mailto:chivikovanton@gmail.com"
+            >
+              chivikovanton@gmail.com
+            </a>
+          </div>
         </div>
 
-        <div class="popupContainer__itHackaton"></div>
-        <div class="popupContainer__lingvaB1B2"></div>
-        <div class="popupContainer__itBootcamp"></div>
-        <div class="popupContainer__itNationCourse"></div>
-        <div class="popupContainer__lingvaA1A2"></div>
-        <div class="popupContainer__dsttu"></div>
-        <div class="popupContainer__kkl-1"></div>
-        <div class="popupContainer__kkl-2"></div>
-        <div class="popupContainer__itHack"></div>
-        <div class="popupContainer__epam"></div>
-        <div class="popupContainer__linkedInHtml"></div>
-        <div class="popupContainer__linkedInCss"></div>
-        <div class="popupContainer__linkedInJS"></div>
-        <div class="popupContainer__coventry-1"></div>
-        <div class="popupContainer__coventry-2"></div>
-    </div>
-</body>
+        <!-- tech skills -->
+        <div class="techSkillsContainer">
+          <h3 class="techSkillsContainer__title">Tech Skills</h3>
+          <ul class="techSkillsContainer__wrapper">
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">HTML5</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">CSS3</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">BEM Methodology</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">LESS</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">SCSS</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">Bootstrap</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">
+                Adobe Photoshop, Adobe XD,
+              </span>
+              <br />
+              <span class="techSkillsContainer__item"> Avocode, Figma </span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">GIT</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">JavaScript</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">OOP</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">jQuery</span>
+            </li>
+            <li class="techSkillsContainer__list">
+              <span class="techSkillsContainer__item">React</span>
+            </li>
+          </ul>
+        </div>
 
+        <!-- soft skills -->
+        <div class="softSkillsContainer">
+          <h3 class="softSkillsContainer__title">Soft Skills</h3>
+          <ul class="softSkillsContainer__wrapper">
+            <li class="softSkillsContainer__list">
+              <span class="softSkillsContainer__item">Scrum</span>
+            </li>
+            <li class="softSkillsContainer__list">
+              <span class="softSkillsContainer__item">Agile</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- about me container -->
+      <div class="infoContainer">
+        <!-- about me main information -->
+        <div class="infoContainer__wrapper">
+          <h2 class="infoContainer__profTitle">Front-End Developer</h2>
+          <h1 class="infoContainer__title">
+            <span class="expTitle">Ant</span>on
+            <span class="expTitle">C</span>hyvikov
+          </h1>
+
+          <p class="infoContainer__description">
+            I'm an enthusiastic and detail-oriented Frontend Software Engineer
+            seeking an entry-level position with Company to use my skills in
+            coding, troubleshooting complex problems, and assisting in the
+            timely completion of projects.
+          </p>
+          <hr />
+        </div>
+
+        <!-- projects container -->
+        <div class="projectsContainer">
+          <h3 class="projectsContainer__title">Projects and Trainings</h3>
+          <ul>
+            <li>
+              <a
+                class="projectsContainer__item"
+                href="https://github.com/Ant-C-tech?tab=repositories"
+                target="_blank"
+                >GitHub Repositories (since Jan 2020)
+              </a>
+            </li>
+            <li>
+              <div class="projectsContainer__itemWrapper">
+                <a
+                  class="projectsContainer__item"
+                  href="https://www.codewars.com/users/Ant-C-tech"
+                  target="_blank"
+                >
+                  Codewars (since Jul 2020)
+                </a>
+                <img
+                  src="https://www.codewars.com/users/Ant-C-tech/badges/micro"
+                  alt="Codewars badge"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- work experience -->
+        <div class="workExperienceContainer">
+          <h3 class="workExperienceContainer__title">Work Experience</h3>
+
+          <!-- company 1 -->
+          <div class="company">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="http://www.kzts.com/"
+              >
+                PJSC “KZTS”
+              </a>
+            </h4>
+            <h4 class="company__prof">Lead engineer</h4>
+            <p class="company__period">October 2013 - April 2020 | Ukraine</p>
+          </div>
+
+          <!-- company 2 -->
+          <div class="company">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://www.google.com/maps/place/Koks-Kompleks+Inzhenernyy+Tsentr+Pp/@48.7180744,37.5598725,15z/data=!4m5!3m4!1s0x0:0x4d02036788b19b0f!8m2!3d48.7180744!4d37.5598725"
+              >
+                PC “Engineering center "Koks-Complex”
+              </a>
+            </h4>
+            <h4 class="company__prof">Second category engineer</h4>
+            <p class="company__period">May 2010 - December 2012 | Ukraine</p>
+          </div>
+
+          <!-- company 3 -->
+          <div class="company">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="http://www.kbkxm-kbk.com/"
+              >
+                PJSC "KB Koksokhimmash"
+              </a>
+            </h4>
+            <h4 class="company__prof">Second category engineer</h4>
+            <p class="company__period">December 2008 - May 2010 | Ukraine</p>
+          </div>
+
+          <!-- company 4 -->
+          <div class="company">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="http://www.ukrprommash.com/en/company.html"
+              >
+                UKRPROMMASH GROUP
+              </a>
+            </h4>
+            <h4 class="company__prof">Engineer, Second category engineer</h4>
+            <p class="company__period">June 2005 - November 2008 | Ukraine</p>
+          </div>
+        </div>
+
+        <!-- education -->
+        <div class="educationContainer">
+          <h3 class="educationContainer__title">Education</h3>
+
+          <!-- education 9-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://kottans.org/"
+              >
+                Kottans
+              </a>
+            </h4>
+            <h4 class="course__type">Front-End Course</h4>
+            <span class="company__period"
+              >November 2020 - Present | Ukraine</span
+            >
+            <div class="course__resultWrapper">
+              <a
+                class="course__result"
+                href="https://github.com/Ant-C-tech/kottans-frontend"
+                target="_blank"
+              >
+                Course contents and results
+              </a>
+            </div>
+          </div>
+
+          <!-- education 8-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://www.kcl.ac.uk/"
+              >
+                Coventry University
+              </a>
+            </h4>
+            <h4 class="course__type">English for Academic Study</h4>
+            <span class="company__period">January 2021 | UK</span>
+            <div>
+              <img
+                class="course__imgIcon course__imgIcon-inline showModal-coventry-1"
+                src="img/coventry1_icon.jpg"
+                alt="certificate"
+              />
+              <img
+                class="course__imgIcon course__imgIcon-inline showModal-coventry-2"
+                src="img/coventry2_icon.jpg"
+                alt="certificate"
+              />
+            </div>
+          </div>
+
+          <!-- education 7-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://www.kcl.ac.uk/"
+              >
+                King's College London
+              </a>
+            </h4>
+            <h4 class="course__type">Basic English 2: Pre-Intermediate</h4>
+            <span class="company__period">November 2020 | UK</span>
+            <div>
+              <img
+                class="course__imgIcon course__imgIcon-inline showModal-kkl-1"
+                src="img/basic-english-pre-intermediate_icon_1.jpg"
+                alt="certificate"
+              />
+              <img
+                class="course__imgIcon course__imgIcon-inline showModal-kkl-2"
+                src="img/basic-english-pre-intermediate_icon_2.jpg"
+                alt="certificate"
+              />
+            </div>
+          </div>
+
+          <!-- education 6-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://itukraine.org.ua/en/start-of-it-nation-an-educational-programme.html"
+              >
+                Educational Programme “IT nation”
+              </a>
+            </h4>
+            <h4 class="course__type">IT Nation Hacks-2020</h4>
+            <span class="company__period">October 2020 | Ukraine</span>
+            <img
+              class="course__imgIcon showModal-itHack"
+              src="img/hackaton_icon.jpg"
+              alt="certificate"
+            />
+          </div>
+
+          <!-- education 5-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://lingva.ua/"
+                >PO "Association of innovative and digital education"
+              </a>
+            </h4>
+            <h4 class="course__type">English level B1-B1+</h4>
+            <span class="company__period">
+              August 2020 - October 2020 | Ukraine
+            </span>
+          </div>
+
+          <!-- education 4-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://itukraine.org.ua/en/start-of-it-nation-an-educational-programme.html"
+              >
+                Educational Programme “IT nation”
+              </a>
+            </h4>
+            <h4 class="course__type">Bootcamp for developers</h4>
+            <span class="company__period">September 2020 | Ukraine</span>
+            <img
+              class="course__imgIcon showModal-itBootcamp"
+              src="img/bootcamp_icon.jpg"
+              alt="certificate"
+            />
+          </div>
+
+          <!-- education 3-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://itukraine.org.ua/en/start-of-it-nation-an-educational-programme.html"
+              >
+                Educational Programme “IT nation”
+              </a>
+            </h4>
+            <h4 class="course__type">Advanced Front-End Web Developer</h4>
+            <span class="company__period">
+              April 2020 - September 2020 | Ukraine
+            </span>
+            <img
+              class="course__imgIcon showModal-itNationCourse"
+              src="img/certificate_icon.jpg"
+              alt="certificate"
+            />
+          </div>
+
+          <!-- education 2-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://lingva.ua/"
+              >
+                PO "Association of innovative and digital education"
+              </a>
+            </h4>
+            <h4 class="course__type">English level A1-A2</h4>
+            <span class="company__period"
+              >June 2020 - August 2020 | Ukraine
+            </span>
+            <img
+              class="course__imgIcon showModal-lingvaA1A2"
+              src="img/diploma_icon.jpg"
+              alt="certificate"
+            />
+          </div>
+
+          <!-- education 1-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="http://www.slavdpu.dn.ua/"
+              >
+                STATE HIGHER EDUCATIONAL INSTITUTION DONBASS STATE TEACHERS'
+                TRAINING UNIVERSITY (DSTTU)
+              </a>
+            </h4>
+            <h4 class="course__type">Physics teacher</h4>
+            <span class="company__period">
+              September 2000 - June 2005 | Ukraine
+            </span>
+          </div>
+        </div>
+
+        <!-- test -->
+        <div class="testContainer">
+          <h3 class="testContainer__title">Completed tests</h3>
+
+          <!-- test 1-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://www.training.epam.ua/#!/Home?lang=en"
+              >
+                EPAM University Program
+              </a>
+            </h4>
+            <h4 class="course__type">Adaptive English test 2020 Assignment</h4>
+            <span class="company__period">January 2021</span>
+            <img
+              class="course__imgIcon showModal-epam"
+              src="img/EPAM_test.jpg"
+              alt="letter with test result"
+            />
+          </div>
+
+          <!-- test 2-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://www.linkedin.com/in/anton-chyvikov-27ba99198/"
+              >
+                LinkedIn Skills Assessment Badge
+              </a>
+            </h4>
+            <h4 class="course__type">HTML</h4>
+            <span class="company__period">2020</span>
+            <img
+              class="course__imgIcon showModal-linkedInHtml"
+              src="img/html_badge.jpg"
+              alt="test result badge"
+            />
+          </div>
+
+          <!-- test 3-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://www.linkedin.com/in/anton-chyvikov-27ba99198/"
+              >
+                LinkedIn Skills Assessment Badge
+              </a>
+            </h4>
+            <h4 class="course__type">CSS</h4>
+            <span class="company__period">2020</span>
+            <img
+              class="course__imgIcon showModal-linkedInCss"
+              src="img/css_badge.jpg"
+              alt="test result badge"
+            />
+          </div>
+
+          <!-- test 4-->
+          <div class="course">
+            <h4>
+              <a
+                class="company__title"
+                target="_blank"
+                href="https://www.linkedin.com/in/anton-chyvikov-27ba99198/"
+              >
+                LinkedIn Skills Assessment Badge
+              </a>
+            </h4>
+            <h4 class="course__type">JavaScript</h4>
+            <span class="company__period">2020</span>
+            <img
+              class="course__imgIcon showModal-linkedInJS"
+              src="img/javaScript_badge.jpg"
+              alt="test result badge"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="popupContainer__itHackaton"></div>
+      <div class="popupContainer__lingvaB1B2"></div>
+      <div class="popupContainer__itBootcamp"></div>
+      <div class="popupContainer__itNationCourse"></div>
+      <div class="popupContainer__lingvaA1A2"></div>
+      <div class="popupContainer__dsttu"></div>
+      <div class="popupContainer__kkl-1"></div>
+      <div class="popupContainer__kkl-2"></div>
+      <div class="popupContainer__itHack"></div>
+      <div class="popupContainer__epam"></div>
+      <div class="popupContainer__linkedInHtml"></div>
+      <div class="popupContainer__linkedInCss"></div>
+      <div class="popupContainer__linkedInJS"></div>
+      <div class="popupContainer__coventry-1"></div>
+      <div class="popupContainer__coventry-2"></div>
+    </div>
+  </body>
 </html>
