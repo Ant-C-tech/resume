@@ -119,7 +119,7 @@ body {
 .projectsContainer,
 .educationContainer,
 .testContainer {
-  margin-bottom: 50px;
+  margin: 75px 0 50px;
   max-width: 550px;
 }
 
