@@ -6,7 +6,6 @@
 */
 
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -22,13 +21,9 @@ body {
 .mainContainer {
   max-width: 1200px;
   margin: 40px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   background: #ffffff;
-  -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.25);
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -132,15 +127,13 @@ body {
   color: #000000;
   margin-bottom: 20px;
   border-bottom: 1px solid#ff6b08;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
 .projectsContainer__itemWrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -202,6 +195,8 @@ body {
 }
 
 .course__resultWrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: 15px;
   border-top: 1px solid#FF6B08;
@@ -209,11 +204,7 @@ body {
 }
 
 .course__result {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   color: #000000;
 }
@@ -229,7 +220,6 @@ body {
   margin-top: 10px;
   border-top: 1px solid#FF6B08;
   border-bottom: 1px solid#FF6B08;
-  -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.4);
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.4);
 }
 
@@ -249,7 +239,6 @@ body {
 
 @media screen and (max-width: 790px) {
   .mainContainer {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .aside {
