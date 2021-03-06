@@ -80,15 +80,14 @@ body {
 }
 
 .infoContainer {
+  padding: 50px 20px 80px 80px;
   color: #595959;
-  padding-top: 110px;
-  padding-bottom: 110px;
-  padding: 110px 20px 80px 80px;
 }
 
 .infoContainer__wrapper {
   max-width: 420px;
   margin-bottom: 70px;
+  margin-right: 70px;
 }
 
 .infoContainer__profTitle {
@@ -100,11 +99,39 @@ body {
 }
 
 .infoContainer__title {
+  margin-bottom: 15px;
   color: #000000;
   font-size: 45px;
   line-height: 60px;
-  margin-bottom: 30px;
   font-weight: 700;
+}
+
+.infoContainer__titleBadgeBase{
+  position: relative;
+}
+
+.infoContainer__titleBadgeBase::after{
+  position: absolute;
+  right: -80px;
+  top: -10px;
+  content: '';
+  background: url('https://www.codewars.com/users/Ant-C-tech/badges/micro') no-repeat;
+  width: 120px;
+  height: 20px;
+}
+
+.infoContainer__socialLinks {
+  display: flex;
+
+  margin-bottom: 15px;
+}
+
+.infoContainer__socialLinksItem {
+  margin: 0 15px;
+}
+
+.infoContainer__socialLinksImg {
+  width: 40px;
 }
 
 .expTitle {
@@ -142,22 +169,6 @@ body {
   text-decoration: none;
   color: #595959;
   margin-right: 10px;
-}
-
-.projectsContainer__dotted {
-  color: #e6e6e6;
-}
-
-.projectsContainer__stat {
-  color: #a8a8a8;
-  white-space: nowrap;
-  font-size: 12px;
-}
-
-.projectsContainer__bracket {
-  font-weight: bold;
-  color: #000000;
-  margin: 0 7px;
 }
 
 .workExperienceContainer {
@@ -277,19 +288,10 @@ body {
     margin: 0;
   }
   .infoContainer {
-    padding: 10px;
+    padding: 20px 10px 10px;
   }
   .projectsContainer__item {
     font-size: 12px;
-  }
-  .projectsContainer__dotted {
-    display: none;
-  }
-  .projectsContainer__stat {
-    font-size: 10px;
-  }
-  .projectsContainer__bracket {
-    margin: 0;
   }
   .company__description li {
     margin-left: 20px;
