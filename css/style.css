@@ -18,6 +18,17 @@ body {
   background: #edeff2;
 }
 
+a {
+  display: inline-block;
+  transition: all ease-in-out 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+  color: #595959;
+}
+
 .mainContainer {
   max-width: 1200px;
   margin: 40px auto;
@@ -106,16 +117,17 @@ body {
   font-weight: 700;
 }
 
-.infoContainer__titleBadgeBase{
+.infoContainer__titleBadgeBase {
   position: relative;
 }
 
-.infoContainer__titleBadgeBase::after{
+.infoContainer__titleBadgeBase::after {
   position: absolute;
   right: -80px;
   top: -10px;
-  content: '';
-  background: url('https://www.codewars.com/users/Ant-C-tech/badges/micro') no-repeat;
+  content: "";
+  background: url("https://www.codewars.com/users/Ant-C-tech/badges/micro")
+    no-repeat;
   width: 120px;
   height: 20px;
 }
@@ -149,11 +161,18 @@ body {
 .workExperienceContainer__title,
 .educationContainer__title,
 .testContainer__title {
+  display: inline-block;
+  padding: 5px;
+
   font-weight: bold;
   font-size: 22px;
   color: #000000;
   margin-bottom: 20px;
-  border-bottom: 1px solid#ff6b08;
+
+  border-radius: 5px;
+  border-bottom: 1px solid#3b4452;
+
+  box-shadow: 2px 2px 18px #1e2939;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -217,7 +236,9 @@ body {
 .course__result {
   display: flex;
   align-items: center;
-  color: #000000;
+
+  font-weight: bold;
+  color: #ff6b08;
 }
 
 .course__result:hover {
@@ -237,6 +258,37 @@ body {
 .course__imgIcon-inline {
   display: inline;
   max-width: 120px;
+}
+
+.siteButton {
+  display: block;
+  margin-top: 80px;
+  padding: 10px 15px;
+
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #1e2939;
+  font-weight: bold;
+
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 18px #1e2939;
+
+  background: #fff;
+
+  transition: all ease-in-out 0.3s;
+}
+
+.siteButton:hover,
+.siteButton:focus {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+   background: #1e2939;
+  border: 1px solid #ff6b08;
+  box-shadow: 2px 2px 18px #ff6b08;
+  transform: scale(1);
 }
 
 @media screen and (max-width: 1200px) {
