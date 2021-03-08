@@ -1,5 +1,24 @@
 'use strict'
 
+function runningNum(num, time, outElemClass, fps = 20) {
+  const timeStep = Math.round(time / ((time / 1000) * fps));
+  const step = Math.round(num / (time / timeStep));
+
+  const out = document.querySelector(outElemClass);
+  let counter = 0;
+  let timer = setInterval(() => {
+    counter += step;
+    if (num > counter) {
+      out.innerHTML = counter;
+    } else {
+      clearInterval(timer);
+      out.innerHTML = num;
+    }
+  }, timeStep);
+}
+
+runningNum(22, 1500, "#projectNumbers");
+
 let popupLingvaA1A2 = new PopUp({
   openBtn: "showModal-lingvaA1A2",
   container: "popupContainer__lingvaA1A2",

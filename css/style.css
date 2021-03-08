@@ -150,11 +150,45 @@ a:hover {
   color: #3b4452;
 }
 
+.infoContainer__description {
+  margin-bottom: 40px;
+}
+
+.infoContainer__projectSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.infoContainer__projectNumbers {
+  display: block;
+  width: 120px;
+
+  margin: 0 20px 0;
+
+  font-size: 45px;
+  line-height: 60px;
+  font-weight: 700;
+  line-height: 1;
+  color: #ff6b08;
+}
+
+.infoContainer__projectDescription {
+  text-align: center;
+}
+
+.infoContainer__projectDescriptionText {
+  display: block;
+
+  margin-bottom: 5px;
+}
+
 .projectsContainer,
 .educationContainer,
 .testContainer {
   margin: 75px 0 50px;
-  max-width: 550px;
 }
 
 .projectsContainer__title,
@@ -234,11 +268,20 @@ a:hover {
 }
 
 .course__result {
-  display: flex;
   align-items: center;
 
   font-weight: bold;
   color: #ff6b08;
+}
+
+.course__resultTextContent {
+  margin: 5px;
+}
+
+.course__resultImg {
+  display: block;
+  margin: 0 auto 10px;
+  width: 50px;
 }
 
 .course__result:hover {
@@ -285,7 +328,7 @@ a:hover {
   text-decoration: none;
   outline: none;
   color: #fff;
-   background: #1e2939;
+  background: #1e2939;
   border: 1px solid #ff6b08;
   box-shadow: 2px 2px 18px #ff6b08;
   transform: scale(1);
