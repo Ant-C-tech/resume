@@ -334,6 +334,10 @@ a:hover {
   transform: scale(1);
 }
 
+.projectsSection{
+  display: flex;
+}
+
 @media screen and (max-width: 1200px) {
   .mainContainer {
     margin: 20px;
