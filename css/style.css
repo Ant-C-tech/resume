@@ -146,6 +146,10 @@ a:hover {
   width: 40px;
 }
 
+.infoContainer__gitLinkIcon {
+  width: 30px;
+}
+
 .expTitle {
   color: #3b4452;
 }
@@ -336,6 +340,52 @@ a:hover {
 
 .projectsSection{
   display: flex;
+  margin-right: 30px;
+}
+
+.screenshotWrapper{
+  margin-right: 30px;
+}
+
+.project__title{
+  border-bottom: 1px solid#FF6B08;
+}
+
+.project__imgIcon {
+  display: block;
+  max-width: 250px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-top: 1px solid#FF6B08;
+  border-bottom: 1px solid#FF6B08;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.4);
+}
+
+.project__projectDescription {
+  align-self: flex-start;
+  text-align: left;
+}
+
+.project__projectDescriptionText{
+  margin-top: 30px;
+}
+
+.project__links{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project__gitLink {
+  display: block;
+  text-align: right;
+  margin-right: 20px;
+  color: #ff6b08;
+}
+
+.project__gitLinkIcon {
+  width: 32px;
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 1200px) {

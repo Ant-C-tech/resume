@@ -58,10 +58,20 @@
 
     <!-- styles -->
     <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- scripts -->
+    <script defer src="js/popUp.min.js"></script>
+    <script defer src="js/project.js"></script>
   </head>
 
   <body>
@@ -191,9 +201,66 @@
           <hr />
         </div>
         <section class="projectsSection">
+          <div class="infoContainer__projectSection">
+            <div class="screenshotWrapper">
+              <img
+                class="project__imgIcon showModal-cinemaApp-1"
+                src="./img/projects/22/proj22_icon.jpg"
+                alt="screenshot of cinema application"
+              />
+              <img
+                class="project__imgIcon showModal-cinemaApp-2"
+                src="./img/projects/22/proj22-2_icon.jpg"
+                alt="screenshot of cinema application"
+              />
+            </div>
 
+            <div class="project__projectDescription">
+              <h3 class="project__title">Cinema Application</h3>
+              <p class="company__period">
+                January 2021 | Kottans Frontend 2021
+              </p>
+              <p class="project__projectDescriptionText">
+                This project is a mobile application called as "Cinema
+                Application" used for booking a cinema ticket online. The
+                application provides many options for the cinema customer to
+                facilitate the process of online searching and booking a cinema
+                ticket for a movie. Furthermore, it helps the cinema owner to
+                manage his cinema and customize the available movies.
+              </p>
+              <div class="project__links">
+                <a
+                  class="project__gitLink"
+                  href="https://github.com/Ant-C-tech/Cinema-Application"
+                  target="_blank"
+                >
+                  Demo
+                  <img
+                    class="project__gitLinkIcon"
+                    src="./img/projects/22/favicon-32x32.png"
+                    alt="github icon"
+                  />
+                </a>
+                <a
+                  class="project__gitLink"
+                  href="https://github.com/Ant-C-tech/Cinema-Application"
+                  target="_blank"
+                >
+                  Code Base
+                  <img
+                    class="project__gitLinkIcon"
+                    src="./img/icons/github.svg"
+                    alt="github icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr />
         </section>
       </div>
+      <div class="popupContainer__cinemaApp-1"></div>
+      <div class="popupContainer__cinemaApp-2"></div>
     </div>
   </body>
 </html>
