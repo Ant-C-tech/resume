@@ -149,7 +149,22 @@ a:hover {
 .infoContainer__socialLinksImg-animated {
   position: relative;
   will-change: transform;
-  animation: arrowMotion 2s infinite;
+  -webkit-animation: arrowMotion 2s infinite;
+          animation: arrowMotion 2s infinite;
+}
+
+@-webkit-keyframes arrowMotion {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+
+  50%{
+    transform: translateX(15px) scale(1.1);
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+  }
 }
 
 @keyframes arrowMotion {
@@ -359,7 +374,6 @@ a:hover {
 }
 
 .projectsSection {
-  /* display: flex; */
   margin-right: 30px;
   max-width: 600px;
 }
