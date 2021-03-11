@@ -15,3 +15,19 @@ let popupCinemaApp2 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupFriendsApp1 = new PopUp({
+  openBtn: "showModal-friendsApp-1",
+  container: "popupContainer__friendsApp-1",
+  content: ` <img class="course__img w-100" src="./img/projects/21/proj21.jpg" alt="screenshot of cinema application">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupFriendsApp2 = new PopUp({
+  openBtn: "showModal-friendsApp-2",
+  container: "popupContainer__friendsApp-2",
+  content: ` <img class="course__img w-100" src="./img/projects/21/proj21-2.jpg" alt="screenshot of cinema application">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});

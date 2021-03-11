@@ -359,7 +359,7 @@ a:hover {
 }
 
 .projectsSection {
-  display: flex;
+  /* display: flex; */
   margin-right: 30px;
   max-width: 600px;
 }
