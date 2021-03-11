@@ -146,6 +146,26 @@ a:hover {
   width: 40px;
 }
 
+.infoContainer__socialLinksImg-animated {
+  position: relative;
+  will-change: transform;
+  animation: arrowMotion 2s infinite;
+}
+
+@keyframes arrowMotion {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+
+  50%{
+    transform: translateX(15px) scale(1.1);
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
 .infoContainer__gitLinkIcon {
   width: 30px;
 }
@@ -338,25 +358,39 @@ a:hover {
   transform: scale(1);
 }
 
-.projectsSection{
+.projectsSection {
   display: flex;
   margin-right: 30px;
+  max-width: 600px;
 }
 
-.screenshotWrapper{
+.projectItem {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.projectItem__flexWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.screenshotWrapper {
+  align-self: flex-start;
   margin-right: 30px;
+  padding-top: 10px;
 }
 
-.project__title{
+.project__title {
   border-bottom: 1px solid#FF6B08;
 }
 
 .project__imgIcon {
   display: block;
-  max-width: 250px;
+  max-width: 200px;
   cursor: pointer;
   margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-top: 1px solid#FF6B08;
   border-bottom: 1px solid#FF6B08;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.4);
@@ -367,11 +401,11 @@ a:hover {
   text-align: left;
 }
 
-.project__projectDescriptionText{
-  margin-top: 30px;
+.project__projectDescriptionText {
+  margin-top: 10px;
 }
 
-.project__links{
+.project__links {
   display: flex;
   justify-content: flex-end;
 }
@@ -394,6 +428,20 @@ a:hover {
   }
   .projectsContainer__stat {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .projectItem__flexWrapper {
+    flex-wrap: wrap;
+  }
+
+  .project__imgIcon {
+    max-width: 300px;
+  }
+
+  .project__projectDescription {
+    width: 100%;
   }
 }
 
@@ -439,10 +487,20 @@ a:hover {
   .infoContainer {
     padding: 20px 10px 10px;
   }
+
+  .infoContainer__wrapper {
+    margin-bottom: 30px;
+  }
+
   .projectsContainer__item {
     font-size: 12px;
   }
   .company__description li {
     margin-left: 20px;
+  }
+
+  .project__imgIcon {
+    max-width: 200px;
+    margin-right: 0;
   }
 }
