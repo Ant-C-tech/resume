@@ -159,3 +159,19 @@ let popupAnimateCssSlider4 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupECommerce1 = new PopUp({
+  openBtn: "showModal-eCommerce-1",
+  container: "popupContainer__eCommerce-1",
+  content: ` <img class="course__img w-100" src="./img/projects/13/proj13.jpg" alt="screenshot of "IT Nation" E-commerce">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupECommerce2 = new PopUp({
+  openBtn: "showModal-eCommerce-2",
+  container: "popupContainer__eCommerce-2",
+  content: `<img class="course__img w-100" src="./img/projects/13/proj13-2.jpg" alt="screenshot of "IT Nation" E-commerce>`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
