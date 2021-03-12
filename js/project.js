@@ -160,6 +160,14 @@ let popupAnimateCssSlider4 = new PopUp({
   maskOpacity: "0.7",
 });
 
+let popupTextEncrypt = new PopUp({
+  openBtn: "showModal-textEncrypt",
+  container: "popupContainer__textEncrypt",
+  content: ` <img class="course__img w-100" src="./img/projects/6/proj6.jpg" alt="screenshot of Text Encrypt">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
 let popupECommerce1 = new PopUp({
   openBtn: "showModal-eCommerce-1",
   container: "popupContainer__eCommerce-1",
@@ -236,6 +244,14 @@ let popupKnown2 = new PopUp({
   openBtn: "showModal-known-2",
   container: "popupContainer__known-2",
   content: `<img class="course__img w-100" src="./img/projects/8/proj8-2.jpg" alt="screenshot of Known Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupSimpleSlider = new PopUp({
+  openBtn: "showModal-simpleSlider",
+  container: "popupContainer__simpleSlider",
+  content: ` <img class="course__img w-100" src="./img/projects/7/proj7.jpg" alt="screenshot of SimpleSlider">`,
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
