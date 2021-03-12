@@ -95,3 +95,35 @@ let popupAirQuality2 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupPersonalSchedulingService1 = new PopUp({
+  openBtn: "showModal-personalSchedulingService-1",
+  container: "popupContainer__personalSchedulingService-1",
+  content: ` <img class="course__img w-100" src="./img/projects/15/proj15.jpg" alt="screenshot of Personal Scheduling Service">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPersonalSchedulingService2 = new PopUp({
+  openBtn: "showModal-personalSchedulingService-2",
+  container: "popupContainer__personalSchedulingService-2",
+  content: `<img class="course__img w-100" src="./img/projects/15/proj15-2.jpg" alt="screenshot of Personal Scheduling Service">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPersonalSchedulingService3 = new PopUp({
+  openBtn: "showModal-personalSchedulingService-3",
+  container: "popupContainer__personalSchedulingService-3",
+  content: ` <img class="course__img w-100" src="./img/projects/15/proj15-3.jpg" alt="screenshot of Personal Scheduling Service">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPersonalSchedulingService4 = new PopUp({
+  openBtn: "showModal-personalSchedulingService-4",
+  container: "popupContainer__personalSchedulingService-4",
+  content: `<img class="course__img w-100" src="./img/projects/15/proj15-4.jpg" alt="screenshot of Personal Scheduling Service">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
