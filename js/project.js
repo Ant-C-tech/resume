@@ -223,3 +223,19 @@ let popupKidsCalc = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupKnown1 = new PopUp({
+  openBtn: "showModal-known-1",
+  container: "popupContainer__known-1",
+  content: ` <img class="course__img w-100" src="./img/projects/8/proj8.jpg" alt="screenshot of Known Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupKnown2 = new PopUp({
+  openBtn: "showModal-known-2",
+  container: "popupContainer__known-2",
+  content: `<img class="course__img w-100" src="./img/projects/8/proj8-2.jpg" alt="screenshot of Known Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
