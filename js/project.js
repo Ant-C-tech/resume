@@ -207,3 +207,19 @@ let popupSimpleSlider_2_12 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupSimpleSlider_2_0 = new PopUp({
+  openBtn: "showModal-simpleSlider2_0",
+  container: "popupContainer__simpleSlider2_0",
+  content: ` <img class="course__img w-100" src="./img/projects/10/proj10.jpg" alt="screenshot of SimpleSlider 2.0">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupKidsCalc = new PopUp({
+  openBtn: "showModal-kidsCalc",
+  container: "popupContainer__kidsCalc",
+  content: ` <img class="course__img w-100" src="./img/projects/9/proj9.jpg" alt="screenshot of KidsCalc">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
