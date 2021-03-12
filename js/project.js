@@ -71,3 +71,11 @@ let popupUkraine2 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupNoJSPopUp = new PopUp({
+  openBtn: "showModal-noJSPopUp",
+  container: "popupContainer__noJSPopUp",
+  content: ` <img class="course__img w-100" src="./img/projects/17/proj17.jpg" alt="screenshot of NoJSPopUp">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
