@@ -79,3 +79,19 @@ let popupNoJSPopUp = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupAirQuality1 = new PopUp({
+  openBtn: "showModal-airQuality-1",
+  container: "popupContainer__airQuality-1",
+  content: ` <img class="course__img w-100" src="./img/projects/16/proj16.jpg" alt="screenshot of Air Quality Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupAirQuality2 = new PopUp({
+  openBtn: "showModal-airQuality-2",
+  container: "popupContainer__airQuality-2",
+  content: `<img class="course__img w-100" src="./img/projects/16/proj16-2.jpg" alt="screenshot of Air Quality Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
