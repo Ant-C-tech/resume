@@ -163,7 +163,7 @@ let popupAnimateCssSlider4 = new PopUp({
 let popupECommerce1 = new PopUp({
   openBtn: "showModal-eCommerce-1",
   container: "popupContainer__eCommerce-1",
-  content: ` <img class="course__img w-100" src="./img/projects/13/proj13.jpg" alt="screenshot of "IT Nation" E-commerce">`,
+  content: ` <img class="course__img w-100" src="./img/projects/13/proj13.jpg" alt="screenshot of 'IT Nation' E-commerce">`,
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
@@ -171,7 +171,23 @@ let popupECommerce1 = new PopUp({
 let popupECommerce2 = new PopUp({
   openBtn: "showModal-eCommerce-2",
   container: "popupContainer__eCommerce-2",
-  content: `<img class="course__img w-100" src="./img/projects/13/proj13-2.jpg" alt="screenshot of "IT Nation" E-commerce>`,
+  content: `<img class="course__img w-100" src="./img/projects/13/proj13-2.jpg" alt="screenshot of 'IT Nation' E-commerce">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupSimplePopUp1 = new PopUp({
+  openBtn: "showModal-simplePopUp-1",
+  container: "popupContainer__simplePopUp-1",
+  content: ` <img class="course__img w-100" src="./img/projects/12/proj12.jpg" alt="screenshot of SimplePopUp">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupSimplePopUp2 = new PopUp({
+  openBtn: "showModal-simplePopUp-2",
+  container: "popupContainer__simplePopUp-2",
+  content: `<img class="course__img w-100" src="./img/projects/12/proj12-2.jpg" alt="screenshot of SimplePopUp">`,
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
