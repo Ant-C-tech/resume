@@ -31,3 +31,11 @@ let popupFriendsApp2 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupFroggerGame = new PopUp({
+  openBtn: "showModal-froggerGame",
+  container: "popupContainer__froggerGame",
+  content: ` <img class="course__img w-100" src="./img/projects/20/proj20.jpg" alt="screenshot of Frogger Game">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
