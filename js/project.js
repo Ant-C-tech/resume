@@ -191,3 +191,19 @@ let popupSimplePopUp2 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupSimpleSlider_2_11 = new PopUp({
+  openBtn: "showModal-simpleSlider2_1-1",
+  container: "popupContainer__simpleSlider_2_1-1",
+  content: ` <img class="course__img w-100" src="./img/projects/11/proj11.jpg" alt="screenshot of SimpleSlider 2.1">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupSimpleSlider_2_12 = new PopUp({
+  openBtn: "showModal-simpleSlider2_1-2",
+  container: "popupContainer__simpleSlider_2_1-2",
+  content: `<img class="course__img w-100" src="./img/projects/11/proj11-2.jpg" alt="screenshot of SimpleSlider 2.1">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
