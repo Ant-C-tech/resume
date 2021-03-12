@@ -127,3 +127,35 @@ let popupPersonalSchedulingService4 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupAnimateCssSlider1 = new PopUp({
+  openBtn: "showModal-animateCssSlider-1",
+  container: "popupContainer__animateCssSlider-1",
+  content: ` <img class="course__img w-100" src="./img/projects/14/proj14.jpg" alt="screenshot of Animate.css Slider">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupAnimateCssSlider2 = new PopUp({
+  openBtn: "showModal-animateCssSlider-2",
+  container: "popupContainer__animateCssSlider-2",
+  content: `<img class="course__img w-100" src="./img/projects/14/proj14-2.jpg" alt="screenshot of Animate.css Slider">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupAnimateCssSlider3 = new PopUp({
+  openBtn: "showModal-animateCssSlider-3",
+  container: "popupContainer__animateCssSlider-3",
+  content: ` <img class="course__img w-100" src="./img/projects/14/proj14-3.jpg" alt="screenshot of Animate.css Slider">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupAnimateCssSlider4 = new PopUp({
+  openBtn: "showModal-animateCssSlider-4",
+  container: "popupContainer__personalSchedulingService-4",
+  content: `<img class="course__img w-100" src="./img/projects/14/proj14-4.jpg" alt="screenshot of Animate.css Slider">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
