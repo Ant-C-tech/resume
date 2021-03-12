@@ -55,3 +55,19 @@ let popupMemoryPairGame2 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupUkraine1 = new PopUp({
+  openBtn: "showModal-ukraine-1",
+  container: "popupContainer__ukraine-1",
+  content: ` <img class="course__img w-100" src="./img/projects/18/proj18.jpg" alt="screenshot of WDYKAU application">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupUkraine2 = new PopUp({
+  openBtn: "showModal-ukraine-2",
+  container: "popupContainer__ukraine-2",
+  content: `<img class="course__img w-100" src="./img/projects/18/proj18-2.jpg" alt="screenshot of WDYKAU application">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
