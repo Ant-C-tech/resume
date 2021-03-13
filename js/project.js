@@ -287,3 +287,19 @@ let popupPortfolio4 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupActiveBox1 = new PopUp({
+  openBtn: "showModal-activeBox-1",
+  container: "popupContainer__activeBox-1",
+  content: ` <img class="course__img w-100" src="./img/projects/4/proj4.jpg" alt="screenshot of ActiveBox Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupActiveBox2 = new PopUp({
+  openBtn: "showModal-activeBox-2",
+  container: "popupContainer__activeBox-2",
+  content: `<img class="course__img w-100" src="./img/projects/4/proj4-2.jpg" alt="screenshot of ActiveBox Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
