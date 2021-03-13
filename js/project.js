@@ -311,3 +311,35 @@ let popupCampp = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupPiroll1 = new PopUp({
+  openBtn: "showModal-piroll-1",
+  container: "popupContainer__piroll-1",
+  content: ` <img class="course__img w-100" src="./img/projects/2/proj2.jpg" alt="screenshot of Piroll Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPiroll2 = new PopUp({
+  openBtn: "showModal-piroll-2",
+  container: "popupContainer__piroll-2",
+  content: `<img class="course__img w-100" src="./img/projects/2/proj2-2.jpg" alt="screenshot of Piroll Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPiroll3 = new PopUp({
+  openBtn: "showModal-piroll-3",
+  container: "popupContainer__piroll-3",
+  content: ` <img class="course__img w-100" src="./img/projects/2/proj2-3.jpg" alt="screenshot of Piroll Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPiroll4 = new PopUp({
+  openBtn: "showModal-piroll-4",
+  container: "popupContainer__piroll-4",
+  content: `<img class="course__img w-100" src="./img/projects/2/proj2-4.jpg" alt="screenshot of Piroll Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
