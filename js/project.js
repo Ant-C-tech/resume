@@ -255,3 +255,35 @@ let popupSimpleSlider = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupPortfolio1 = new PopUp({
+  openBtn: "showModal-portfolio-1",
+  container: "popupContainer__portfolio-1",
+  content: ` <img class="course__img w-100" src="./img/projects/5/proj5.jpg" alt="screenshot of Portfolio CV Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPortfolio2 = new PopUp({
+  openBtn: "showModal-portfolio-2",
+  container: "popupContainer__portfolio-2",
+  content: `<img class="course__img w-100" src="./img/projects/5/proj5-2.jpg" alt="screenshot of Portfolio CV Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPortfolio3 = new PopUp({
+  openBtn: "showModal-portfolio-3",
+  container: "popupContainer__portfolio-3",
+  content: ` <img class="course__img w-100" src="./img/projects/5/proj5-3.jpg" alt="screenshot of Portfolio CV Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupPortfolio4 = new PopUp({
+  openBtn: "showModal-portfolio-4",
+  container: "popupContainer__portfolio-4",
+  content: `<img class="course__img w-100" src="./img/projects/5/proj5-4.jpg" alt="screenshot of Portfolio CV Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
