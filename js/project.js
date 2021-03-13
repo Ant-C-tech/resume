@@ -303,3 +303,11 @@ let popupActiveBox2 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupCampp = new PopUp({
+  openBtn: "showModal-campp",
+  container: "popupContainer__campp",
+  content: `<img class="course__img w-100" src="./img/projects/3/proj3.jpg" alt="screenshot of Campp Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
