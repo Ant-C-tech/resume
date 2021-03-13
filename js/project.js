@@ -343,3 +343,19 @@ let popupPiroll4 = new PopUp({
   maskColor: "#1e2939",
   maskOpacity: "0.7",
 });
+
+let popupMogo1 = new PopUp({
+  openBtn: "showModal-mogo-1",
+  container: "popupContainer__mogo-1",
+  content: ` <img class="course__img w-100" src="./img/projects/1/proj1.jpg" alt="screenshot of Mogo Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupMogo2 = new PopUp({
+  openBtn: "showModal-mogo-2",
+  container: "popupContainer__mogo-2",
+  content: `<img class="course__img w-100" src="./img/projects/1/proj1-2.jpg" alt="screenshot of Mogo Landing">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
