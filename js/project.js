@@ -1,5 +1,21 @@
 'use strict'
 
+let popupAma1 = new PopUp({
+  openBtn: "showModal-ama-1",
+  container: "popupContainer__ama-1",
+  content: ` <img class="course__img w-100" src="./img/projects/23/proj23.jpg" alt="screenshot of Ask me anything">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+let popupAma2 = new PopUp({
+  openBtn: "showModal-ama-2",
+  container: "popupContainer__ama-2",
+  content: ` <img class="course__img w-100" src="./img/projects/23/proj23-2.jpg" alt="screenshot of Ask me anything">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
 let popupCinemaApp1 = new PopUp({
   openBtn: "showModal-cinemaApp-1",
   container: "popupContainer__cinemaApp-1",
