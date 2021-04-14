@@ -1,6 +1,14 @@
-'use strict'
+"use strict";
 
-function runningNum(num, time, outElemClass, fps = 20) {
+let popupItNationCourse = new PopUp({
+  openBtn: "showModal-itNationCourse",
+  container: "popupContainer__itNationCourse",
+  content: ` <img class="course__img w-100" src="img/certificate.jpg" alt="certificate">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+const runningNum = (num, time, outElemClass, fps = 20) => {
   const timeStep = Math.round(time / ((time / 1000) * fps));
   const step = Math.round(num / (time / timeStep));
 
@@ -15,25 +23,34 @@ function runningNum(num, time, outElemClass, fps = 20) {
       out.innerHTML = num;
     }
   }, timeStep);
-}
+};
 
-runningNum(23, 1500, "#projectNumbers");
+const isOnScreenFirstly = (elem, flag) => {
+  return (
+    elem.getBoundingClientRect().y + elem.offsetHeight <
+      document.documentElement.clientHeight && flag
+  );
+};
 
-let popupItNationCourse = new PopUp({
-  openBtn: "showModal-itNationCourse",
-  container: "popupContainer__itNationCourse",
-  content: ` <img class="course__img w-100" src="img/certificate.jpg" alt="certificate">`,
-  maskColor: "#1e2939",
-  maskOpacity: "0.7",
-});
+const projectCounter = document.querySelector("#projectNumbers");
+let projectCounterFlag = true;
 
 const achievementsCounter = document.querySelector("#certificateNumbers");
-let flag = true
+let achievementsCounterFlag = true;
+
+window.addEventListener("load", () => {
+  if (isOnScreenFirstly(projectCounter, projectCounterFlag)) {
+    runningNum(23, 1500, "#projectNumbers");
+    projectCounterFlag = false;
+  }
+});
 
 document.addEventListener("scroll", () => {
-  if (achievementsCounter.getBoundingClientRect().y + achievementsCounter.offsetHeight < document.documentElement.clientHeight && flag) {
-    runningNum(10, 1000, "#certificateNumbers");
-    console.log('work');
-    flag = false
+  if (isOnScreenFirstly(achievementsCounter, achievementsCounterFlag)) {
+    runningNum(10, 1500, "#certificateNumbers", 10);
+    achievementsCounterFlag = false;
+  } else if (isOnScreenFirstly(projectCounter, projectCounterFlag)) {
+    runningNum(23, 1500, "#projectNumbers");
+    projectCounterFlag = false;
   }
 });
