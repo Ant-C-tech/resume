@@ -47,7 +47,7 @@ window.addEventListener("load", () => {
 
 document.addEventListener("scroll", () => {
   if (isOnScreenFirstly(achievementsCounter, achievementsCounterFlag)) {
-    runningNum(10, 1500, "#certificateNumbers", 10);
+    runningNum(11, 1500, "#certificateNumbers", 10);
     achievementsCounterFlag = false;
   } else if (isOnScreenFirstly(projectCounter, projectCounterFlag)) {
     runningNum(23, 1500, "#projectNumbers");

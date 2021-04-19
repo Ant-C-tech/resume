@@ -72,6 +72,14 @@ let popuplinkedInJS = new PopUp({
   maskOpacity: "0.7",
 });
 
+let popuplinkedInProject = new PopUp({
+  openBtn: "showModal-linkedInProject",
+  container: "popupContainer__linkedInProject",
+  content: ` <img class="course__img w-100" src="img/project_badge.jpg" alt="test result">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
 let popupCoventry1 = new PopUp({
   openBtn: "showModal-coventry-1",
   container: "popupContainer__coventry-1",
