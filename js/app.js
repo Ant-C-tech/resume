@@ -40,7 +40,7 @@ let achievementsCounterFlag = true;
 
 window.addEventListener("load", () => {
   if (isOnScreenFirstly(projectCounter, projectCounterFlag)) {
-    runningNum(23, 1500, "#projectNumbers");
+    runningNum(24, 1500, "#projectNumbers");
     projectCounterFlag = false;
   }
 });
@@ -50,7 +50,7 @@ document.addEventListener("scroll", () => {
     runningNum(11, 1500, "#certificateNumbers", 10);
     achievementsCounterFlag = false;
   } else if (isOnScreenFirstly(projectCounter, projectCounterFlag)) {
-    runningNum(23, 1500, "#projectNumbers");
+    runningNum(24, 1500, "#projectNumbers");
     projectCounterFlag = false;
   }
 });

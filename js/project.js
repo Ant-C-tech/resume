@@ -1,5 +1,13 @@
 'use strict'
 
+let popupLexicon = new PopUp({
+  openBtn: "showModal-lex",
+  container: "popupContainer__lexicon",
+  content: ` <img class="course__img w-100" src="./img/projects/24/proj24.jpg" alt="screenshot of Lexicon">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
 let popupAma1 = new PopUp({
   openBtn: "showModal-ama-1",
   container: "popupContainer__ama-1",
