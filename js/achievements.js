@@ -1,6 +1,6 @@
 'use strict'
 
-let popupLingvaA1A2 = new PopUp({
+const popupLingvaA1A2 = new PopUp({
   openBtn: "showModal-lingvaA1A2",
   container: "popupContainer__lingvaA1A2",
   content: ` <img class="course__img w-100" src="img/diploma.jpg" alt="certificate">`,
@@ -8,7 +8,7 @@ let popupLingvaA1A2 = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popupitBootcamp = new PopUp({
+const popupitBootcamp = new PopUp({
   openBtn: "showModal-itBootcamp",
   container: "popupContainer__itBootcamp",
   content: ` <img class="course__img w-100" src="img/bootcamp.jpg" alt="certificate">`,
@@ -16,7 +16,7 @@ let popupitBootcamp = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popupKkl1 = new PopUp({
+const popupKkl1 = new PopUp({
   openBtn: "showModal-kkl-1",
   container: "popupContainer__kkl-1",
   content: ` <img class="course__img w-100" src="img/basic-english-pre-intermediate_certificate_of_achievement_1.jpg" alt="certificate">`,
@@ -24,7 +24,7 @@ let popupKkl1 = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popupKkl2 = new PopUp({
+const popupKkl2 = new PopUp({
   openBtn: "showModal-kkl-2",
   container: "popupContainer__kkl-2",
   content: ` <img class="course__img w-100" src="img/basic-english-pre-intermediate_certificate_of_achievement_2.jpg" alt="certificate">`,
@@ -32,7 +32,7 @@ let popupKkl2 = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popupitHackaton = new PopUp({
+const popupitHackaton = new PopUp({
   openBtn: "showModal-itHack",
   container: "popupContainer__itHack",
   content: ` <img class="course__img w-100" src="img/hackaton.jpg" alt="certificate">`,
@@ -40,7 +40,7 @@ let popupitHackaton = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popupEpam = new PopUp({
+const popupEpam = new PopUp({
   openBtn: "showModal-epam",
   container: "popupContainer__epam",
   content: ` <img class="course__img w-100" src="img/EPAM_test.jpg" alt="test result">`,
@@ -48,7 +48,7 @@ let popupEpam = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popuplinkedInHtml = new PopUp({
+const popuplinkedInHtml = new PopUp({
   openBtn: "showModal-linkedInHtml",
   container: "popupContainer__linkedInHtml",
   content: ` <img class="course__img w-100" src="img/html_badge.jpg" alt="test result">`,
@@ -56,7 +56,7 @@ let popuplinkedInHtml = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popuplinkedInCss = new PopUp({
+const popuplinkedInCss = new PopUp({
   openBtn: "showModal-linkedInCss",
   container: "popupContainer__linkedInCss",
   content: ` <img class="course__img w-100" src="img/css_badge.jpg" alt="test result">`,
@@ -64,7 +64,7 @@ let popuplinkedInCss = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popuplinkedInJS = new PopUp({
+const popuplinkedInJS = new PopUp({
   openBtn: "showModal-linkedInJS",
   container: "popupContainer__linkedInJS",
   content: ` <img class="course__img w-100" src="img/javaScript_badge.jpg" alt="test result">`,
@@ -72,7 +72,15 @@ let popuplinkedInJS = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popuplinkedInProject = new PopUp({
+const popuplinkedInReact = new PopUp({
+  openBtn: "showModal-linkedInReact",
+  container: "popupContainer__linkedInReact",
+  content: ` <img class="course__img w-100" src="img/react_badge.png" alt="test result">`,
+  maskColor: "#1e2939",
+  maskOpacity: "0.7",
+});
+
+const popuplinkedInProject = new PopUp({
   openBtn: "showModal-linkedInProject",
   container: "popupContainer__linkedInProject",
   content: ` <img class="course__img w-100" src="img/project_badge.jpg" alt="test result">`,
@@ -80,7 +88,7 @@ let popuplinkedInProject = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popupCoventry1 = new PopUp({
+const popupCoventry1 = new PopUp({
   openBtn: "showModal-coventry-1",
   container: "popupContainer__coventry-1",
   content: ` <img class="course__img w-100" src="img/coventry1.jpg" alt="test result">`,
@@ -88,7 +96,7 @@ let popupCoventry1 = new PopUp({
   maskOpacity: "0.7",
 });
 
-let popupCoventry2 = new PopUp({
+const popupCoventry2 = new PopUp({
   openBtn: "showModal-coventry-2",
   container: "popupContainer__coventry-2",
   content: ` <img class="course__img w-100" src="img/coventry2.jpg" alt="test result">`,
